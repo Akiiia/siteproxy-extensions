@@ -8,7 +8,7 @@
 
 绿色 Code -> Download ZIP
 
-下载所有文件，编辑 content.js 文件
+下载所有文件，编辑 background.js 文件
 
 ```
 const customUrl = "https://xxx.com/xxx/";
