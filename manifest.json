@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "域名跳转",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
