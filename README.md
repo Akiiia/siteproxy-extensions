@@ -6,7 +6,9 @@
 
 下载所有文件，编辑 content.js 文件
 
+```
 const customUrl = "https://xxx.com/xxx/";
+```
 
 ## 安装
 
