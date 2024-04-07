@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "name": "域名跳转",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "contextMenus"
   ],
   "action": {
     "default_icon": "icon.png"
